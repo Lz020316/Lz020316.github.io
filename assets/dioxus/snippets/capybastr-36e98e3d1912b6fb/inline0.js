@@ -1,0 +1,1 @@
+export function get_timezone() { return Intl.DateTimeFormat().resolvedOptions().timeZone; }
