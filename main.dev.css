@@ -706,6 +706,10 @@ img, video {
   top: -6px;
 }
 
+.top-\[100px\] {
+  top: 100px;
+}
+
 .top-\[11px\] {
   top: 11px;
 }
@@ -756,10 +760,6 @@ img, video {
 
 .top-\[80px\] {
   top: 80px;
-}
-
-.top-\[90px\] {
-  top: 90px;
 }
 
 .z-10 {
@@ -868,8 +868,12 @@ img, video {
   margin-bottom: 29px;
 }
 
-.mb-\[30px\] {
-  margin-bottom: 30px;
+.mb-\[44px\] {
+  margin-bottom: 44px;
+}
+
+.mb-\[55px\] {
+  margin-bottom: 55px;
 }
 
 .mb-\[5px\] {
@@ -1038,6 +1042,10 @@ img, video {
 
 .mt-\[40px\] {
   margin-top: 40px;
+}
+
+.mt-\[43px\] {
+  margin-top: 43px;
 }
 
 .mt-\[50px\] {
@@ -2698,6 +2706,10 @@ img, video {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.bg-\[rgba\(156\,118\,226\,0\.4\)\] {
+  background-color: rgba(156, 118, 226, 0.4);
+}
+
 .bg-\[rgba\(3\,3\,3\,0\.34\)\] {
   background-color: rgba(3, 3, 3, 0.34);
 }
@@ -2978,6 +2990,10 @@ img, video {
 
 .pl-\[40px\] {
   padding-left: 40px;
+}
+
+.pl-\[45px\] {
+  padding-left: 45px;
 }
 
 .pl-\[4px\] {
@@ -3346,10 +3362,6 @@ img, video {
   color: rgb(191 191 191/var(--tw-text-opacity));
 }
 
-.text-\[\#ED61C080\] {
-  color: rgba(237, 97, 192, 0.5019607843);
-}
-
 .text-\[\#ED61C0\] {
   --tw-text-opacity:1;
   color: rgb(237 97 192/var(--tw-text-opacity));
@@ -3624,6 +3636,10 @@ img, video {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.hover\:bg-\[rgba\(156\,118\,226\,0\.4\)\]:hover {
+  background-color: rgba(156, 118, 226, 0.4);
+}
+
 .hover\:text-\[\#ffffff\]:hover {
   --tw-text-opacity:1;
   color: rgb(255 255 255/var(--tw-text-opacity));
@@ -3642,6 +3658,10 @@ img, video {
 .focus\:bg-\[\#e6d9fc\]:focus {
   --tw-bg-opacity:1;
   background-color: rgb(230 217 252/var(--tw-bg-opacity));
+}
+
+.focus\:bg-\[rgba\(156\,118\,226\,0\.4\)\]:focus {
+  background-color: rgba(156, 118, 226, 0.4);
 }
 
 .group:hover .group-hover\:visible {
@@ -4053,6 +4073,13 @@ input[type=checkbox]:checked::before {
 
 .backimg {
   background-image: url("./background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.layout-add svg {
+  width: 14px;
+  height: 14px;
 }
 
 svg {
