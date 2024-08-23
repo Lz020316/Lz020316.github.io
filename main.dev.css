@@ -444,18 +444,22 @@ img, video {
 
 .sub-background-orange {
   background-image: url(sub_backorange.png);
+  background-size: 100%;
 }
 
 .sub-background-pink {
   background-image: url(sub_backpink.png);
+  background-size: 100%;
 }
 
 .sub-background-purple {
   background-image: url(sub_backpurple.png);
+  background-size: 100%;
 }
 
 .topicsquare-background {
   background-image: url(topicsquare_backimg.png);
+  background-size: 100%;
 }
 
 .invisible {
@@ -868,6 +872,10 @@ img, video {
   margin-bottom: 29px;
 }
 
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
 .mb-\[44px\] {
   margin-bottom: 44px;
 }
@@ -978,6 +986,10 @@ img, video {
 
 .mr-\[44px\] {
   margin-right: 44px;
+}
+
+.mr-\[4px\] {
+  margin-right: 4px;
 }
 
 .mr-\[5px\] {
@@ -1374,10 +1386,6 @@ img, video {
   height: 85%;
 }
 
-.h-\[86\%\] {
-  height: 86%;
-}
-
 .h-\[90\%\] {
   height: 90%;
 }
@@ -1416,6 +1424,10 @@ img, video {
 
 .h-\[calc\(100\%-5px\)\] {
   height: calc(100% - 5px);
+}
+
+.h-\[calc\(100\%-64px\)\] {
+  height: calc(100% - 64px);
 }
 
 .h-\[calc\(100\%-80px\)\] {
@@ -1469,6 +1481,10 @@ img, video {
 
 .min-h-\[400px\] {
   min-height: 400px;
+}
+
+.min-h-\[44px\] {
+  min-height: 44px;
 }
 
 .w-8 {
@@ -1839,6 +1855,10 @@ img, video {
   width: 706px;
 }
 
+.w-\[70px\] {
+  width: 70px;
+}
+
 .w-\[72px\] {
   width: 72px;
 }
@@ -1959,6 +1979,14 @@ img, video {
   width: calc(100% - 87px);
 }
 
+.w-\[calc\(100\%-98px\)\] {
+  width: calc(100% - 98px);
+}
+
+.w-\[calc\(50\%-30px\)\] {
+  width: calc(50% - 30px);
+}
+
 .w-\[fit-content\], .w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -1990,6 +2018,10 @@ img, video {
 
 .min-w-\[34px\] {
   min-width: 34px;
+}
+
+.min-w-\[50px\] {
+  min-width: 50px;
 }
 
 .min-w-\[545px\] {
@@ -2531,6 +2563,11 @@ img, video {
 .border-\[\#EEF0F1\] {
   --tw-border-opacity:1;
   border-color: rgb(238 240 241/var(--tw-border-opacity));
+}
+
+.border-\[\#F6EDED\] {
+  --tw-border-opacity:1;
+  border-color: rgb(246 237 237/var(--tw-border-opacity));
 }
 
 .border-\[\#b4b4b4\] {
@@ -4075,6 +4112,23 @@ input[type=checkbox]:checked::before {
   background-image: url("./background.png");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.layout-font-bold {
+  font-weight: 700 !important;
+}
+
+select.custom-arrow {
+  appearance: none;
+}
+
+.newnote-picture svg {
+  width: 26px;
+  height: 24px;
+}
+
+.newnote-picture svg path {
+  fill: #999999;
 }
 
 .layout-add svg {
