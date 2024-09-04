@@ -914,12 +914,20 @@ img, video {
   margin-bottom: 29px;
 }
 
+.mb-\[32px\] {
+  margin-bottom: 32px;
+}
+
 .mb-\[40px\] {
   margin-bottom: 40px;
 }
 
 .mb-\[44px\] {
   margin-bottom: 44px;
+}
+
+.mb-\[4px\] {
+  margin-bottom: 4px;
 }
 
 .mb-\[55px\] {
@@ -992,6 +1000,10 @@ img, video {
 
 .ml-\[329px\] {
   margin-left: 329px;
+}
+
+.ml-\[40px\] {
+  margin-left: 40px;
 }
 
 .ml-\[41px\] {
@@ -2378,6 +2390,10 @@ img, video {
   gap: 20px;
 }
 
+.gap-\[24px\] {
+  gap: 24px;
+}
+
 .gap-\[30px\] {
   gap: 30px;
 }
@@ -3181,6 +3197,14 @@ img, video {
   padding-bottom: 9px;
 }
 
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-\[40px\] {
+  padding-bottom: 40px;
+}
+
 .pl-0 {
   padding-left: 0;
 }
@@ -3247,10 +3271,6 @@ img, video {
 
 .pr-\[18px\] {
   padding-right: 18px;
-}
-
-.pr-\[40px\] {
-  padding-right: 40px;
 }
 
 .pr-\[5px\] {
@@ -4485,6 +4505,50 @@ svg {
   height: 16px;
 }
 
+.dot-flashing {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dotFlashing 1s infinite linear alternate;
+  animation-delay: 0.5s;
+}
+
+.dot-flashing::before,
+.dot-flashing::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+}
+
+.dot-flashing::before {
+  left: -15px;
+  animation: dotFlashing 1s infinite alternate;
+  animation-delay: 0s;
+}
+
+.dot-flashing::after {
+  left: 15px;
+  animation: dotFlashing 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes dotFlashing {
+  0% {
+    background-color: #9880ff;
+  }
+  100% {
+    background-color: #ebe6ff;
+  }
+}
 @keyframes Loading {
   0% {
     transform: rotate(0deg);
