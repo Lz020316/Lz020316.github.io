@@ -4450,7 +4450,6 @@ input[type=checkbox]:checked::before {
   left: 50%;
   margin-left: -40%;
   width: 80%;
-  height: 50px;
   background-color: #9E6FF3;
   border-radius: 50%;
   filter: blur(30px);
@@ -4462,7 +4461,6 @@ input[type=checkbox]:checked::before {
   left: 50%;
   margin-left: -40%;
   width: 80%;
-  height: 50px;
   background-color: #ED61C0;
   border-radius: 50%;
   filter: blur(30px);
@@ -4474,7 +4472,6 @@ input[type=checkbox]:checked::before {
   left: 50%;
   margin-left: -40%;
   width: 80%;
-  height: 50px;
   background-color: #FF9F2F;
   border-radius: 50%;
   filter: blur(30px);
@@ -4636,6 +4633,20 @@ svg {
 .audio-play svg {
   width: 16px;
   height: 18px;
+}
+
+.sub-orange svg {
+  width: 33px;
+  height: 33px;
+}
+
+.user-eye svg {
+  width: 18px;
+  height: 14px;
+}
+
+.user-eye svg path {
+  fill: #333333;
 }
 
 @keyframes dotFlashing {
