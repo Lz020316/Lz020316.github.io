@@ -6,12 +6,12 @@
     <title>CapyBastr</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital;Inter,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <script src="/./capybastr-web/message.js"></script>
+    <!-- <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+    <script src="/./my-react-library.umd.js"></script> -->
     <!-- <script src="/./twitter.js"></script> -->
 
     <script>
@@ -27,13 +27,18 @@
 
       window.addEventListener("message", adjustIframeHeight, false);
     </script>
-  </head>
+  <link rel="stylesheet" href="/tailwind.css">
+<link rel="stylesheet" href="/./my-react-library.css">
+</head>
 
   <body>
     <div id="main"></div>
-  <script type="module">
-    import init from '/./assets/dioxus/capybastr.js?v=20240826121022';
-    init("/./assets/dioxus/capybastr_bg.wasm?v=20240826121022").then(wasm => {
+  <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="/./my-react-library.umd.js"></script>
+<script type="module">
+    import init from "/./assets/dioxus/capybastr.js";
+    init("/./assets/dioxus/capybastr_bg.wasm").then(wasm => {
       if (wasm.__wbindgen_start == undefined) {
         wasm.main();
       }
