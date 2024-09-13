@@ -2971,6 +2971,11 @@ img, video {
   padding-right: 23px;
 }
 
+.px-\[24px\] {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .px-\[25px\] {
   padding-left: 25px;
   padding-right: 25px;
@@ -3151,6 +3156,10 @@ img, video {
 
 .pt-\[24px\] {
   padding-top: 24px;
+}
+
+.pt-\[4px\] {
+  padding-top: 4px;
 }
 
 .text-left {
