@@ -829,6 +829,10 @@ img, video {
   margin-bottom: 20px;
 }
 
+.mb-\[25px\] {
+  margin-bottom: 25px;
+}
+
 .mb-\[28px\] {
   margin-bottom: 28px;
 }
@@ -1033,8 +1037,16 @@ img, video {
   margin-top: 20px;
 }
 
+.mt-\[25px\] {
+  margin-top: 25px;
+}
+
 .mt-\[40px\] {
   margin-top: 40px;
+}
+
+.mt-\[42px\] {
+  margin-top: 42px;
 }
 
 .mt-\[43px\] {
@@ -1229,6 +1241,10 @@ img, video {
 
 .h-\[35px\] {
   height: 35px;
+}
+
+.h-\[35vh\] {
+  height: 35vh;
 }
 
 .h-\[36px\] {
