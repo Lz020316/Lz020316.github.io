@@ -1141,10 +1141,6 @@ img, video {
   height: 133px;
 }
 
-.h-\[146px\] {
-  height: 146px;
-}
-
 .h-\[150px\] {
   height: 150px;
 }
@@ -1239,10 +1235,6 @@ img, video {
 
 .h-\[35px\] {
   height: 35px;
-}
-
-.h-\[35vh\] {
-  height: 35vh;
 }
 
 .h-\[36px\] {
@@ -1432,6 +1424,10 @@ img, video {
 
 .max-h-\[258px\] {
   max-height: 258px;
+}
+
+.max-h-\[35vh\] {
+  max-height: 35vh;
 }
 
 .max-h-\[400px\] {
@@ -3828,24 +3824,24 @@ img, video {
   .lg\:h-\[152px\] {
     height: 152px;
   }
-  .lg\:h-\[168px\] {
-    height: 168px;
+  .lg\:h-\[220px\] {
+    height: 220px;
   }
 }
 @media (min-width: 1280px) {
   .xl\:h-\[200px\] {
     height: 200px;
   }
-  .xl\:h-\[220px\] {
-    height: 220px;
+  .xl\:h-\[260px\] {
+    height: 260px;
   }
 }
 @media (min-width: 1536px) {
   .\32 xl\:h-\[248px\] {
     height: 248px;
   }
-  .\32 xl\:h-\[286px\] {
-    height: 286px;
+  .\32 xl\:h-\[320px\] {
+    height: 320px;
   }
 }
 .dark\:border-\[\#242424\]:where(.dark, .dark *) {
@@ -4198,14 +4194,13 @@ input[type=checkbox]:checked::before {
 .loading-placeholder {
   border-radius: 20px;
   overflow: hidden;
-  height: 35vh;
+  max-height: 35vh;
   background-color: #F1F1F1;
   animation: backgroundColorChange 3s infinite;
 }
 
 .loading-video {
   width: 100%;
-  height: 440px;
   background-color: #F1F1F1;
   animation: backgroundColorChange 3s infinite;
 }
