@@ -863,6 +863,10 @@ img, video {
   margin-left: 10px;
 }
 
+.ml-\[12px\] {
+  margin-left: 12px;
+}
+
 .ml-\[15px\] {
   margin-left: 15px;
 }
@@ -1915,12 +1919,12 @@ img, video {
   min-width: 120px;
 }
 
-.min-w-\[150px\] {
-  min-width: 150px;
+.min-w-\[1250px\] {
+  min-width: 1250px;
 }
 
-.min-w-\[1550px\] {
-  min-width: 1550px;
+.min-w-\[150px\] {
+  min-width: 150px;
 }
 
 .min-w-\[160px\] {
