@@ -4425,6 +4425,10 @@ svg {
   border-image: linear-gradient(90deg, #D34CD9, #F869B6) 1;
 }
 
+.note-add svg path {
+  fill: #B790FF;
+}
+
 #app {
   position: relative;
   background-color: var(--bgc-0);
