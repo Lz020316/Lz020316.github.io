@@ -1503,6 +1503,10 @@ img, video {
   width: 12px;
 }
 
+.w-\[130px\] {
+  width: 130px;
+}
+
 .w-\[133px\] {
   width: 133px;
 }
@@ -1641,10 +1645,6 @@ img, video {
 
 .w-\[30px\] {
   width: 30px;
-}
-
-.w-\[30vw\] {
-  width: 30vw;
 }
 
 .w-\[32px\] {
@@ -2014,10 +2014,6 @@ img, video {
 
 .min-w-\[800px\] {
   min-width: 800px;
-}
-
-.max-w-\[100px\] {
-  max-width: 100px;
 }
 
 .max-w-\[1128px\] {
