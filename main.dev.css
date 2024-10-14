@@ -498,12 +498,16 @@ img, video {
   bottom: 0;
 }
 
-.bottom-\[-10px\] {
-  bottom: -10px;
-}
-
 .bottom-\[-16px\] {
   bottom: -16px;
+}
+
+.bottom-\[-17px\] {
+  bottom: -17px;
+}
+
+.bottom-\[-18px\] {
+  bottom: -18px;
 }
 
 .bottom-\[-66px\] {
@@ -520,6 +524,10 @@ img, video {
 
 .bottom-\[50px\] {
   bottom: 50px;
+}
+
+.bottom-\[65px\] {
+  bottom: 65px;
 }
 
 .bottom-\[90px\] {
@@ -1024,6 +1032,10 @@ img, video {
   margin-top: 43px;
 }
 
+.mt-\[7px\] {
+  margin-top: 7px;
+}
+
 .mt-\[85px\] {
   margin-top: 85px;
 }
@@ -1411,6 +1423,10 @@ img, video {
   max-height: 258px;
 }
 
+.max-h-\[300px\] {
+  max-height: 300px;
+}
+
 .max-h-\[35vh\] {
   max-height: 35vh;
 }
@@ -1503,10 +1519,6 @@ img, video {
   width: 12px;
 }
 
-.w-\[130px\] {
-  width: 130px;
-}
-
 .w-\[133px\] {
   width: 133px;
 }
@@ -1547,6 +1559,10 @@ img, video {
   width: 15px;
 }
 
+.w-\[16\.66\%\] {
+  width: 16.66%;
+}
+
 .w-\[169px\] {
   width: 169px;
 }
@@ -1557,6 +1573,10 @@ img, video {
 
 .w-\[170px\] {
   width: 170px;
+}
+
+.w-\[172px\] {
+  width: 172px;
 }
 
 .w-\[180px\] {
@@ -1911,6 +1931,10 @@ img, video {
   width: calc(100% - 58px);
 }
 
+.w-\[calc\(100\%-63px\)\] {
+  width: calc(100% - 63px);
+}
+
 .w-\[calc\(100\%-72px\)\] {
   width: calc(100% - 72px);
 }
@@ -1980,6 +2004,10 @@ img, video {
   min-width: 34px;
 }
 
+.min-w-\[400px\] {
+  min-width: 400px;
+}
+
 .min-w-\[427px\] {
   min-width: 427px;
 }
@@ -2026,6 +2054,10 @@ img, video {
 
 .max-w-\[175px\] {
   max-width: 175px;
+}
+
+.max-w-\[360px\] {
+  max-width: 360px;
 }
 
 .max-w-\[400px\] {
@@ -2224,6 +2256,10 @@ img, video {
 
 .gap-\[24px\] {
   gap: 24px;
+}
+
+.gap-\[2px\] {
+  gap: 2px;
 }
 
 .gap-\[30px\] {
@@ -3001,6 +3037,11 @@ img, video {
   padding-bottom: 15px;
 }
 
+.py-\[18px\] {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
 .py-\[20px\] {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -3024,6 +3065,11 @@ img, video {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.py-\[9px\] {
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .pb-0 {
@@ -3460,10 +3506,6 @@ img, video {
   color: "#424242";
 }
 
-.text-\[\'Inter\'\] {
-  color: "Inter";
-}
-
 .text-\[14\] {
   color: 14;
 }
@@ -3471,10 +3513,6 @@ img, video {
 .text-\[rgb\(159\,116\,235\)\] {
   --tw-text-opacity:1;
   color: rgb(159 116 235/var(--tw-text-opacity));
-}
-
-.text-\[rgba\(156\,118\,226\,0\.7\)\] {
-  color: rgba(156, 118, 226, 0.7);
 }
 
 .text-inherit {
@@ -4153,8 +4191,8 @@ svg {
 }
 
 .qrcode-modal-qrcode svg {
-  width: 206px;
-  height: 206px;
+  width: 201px;
+  height: 201px;
 }
 
 .content-feed {
@@ -4375,21 +4413,21 @@ svg {
 .sub-border::after {
   content: "";
   position: absolute;
-  left: -14px;
+  left: -8px;
   bottom: 0;
-  width: 14px;
-  height: 14px;
-  background: radial-gradient(circle at 0% 0%, transparent 14px, #DBDBDB 14px, #DBDBDB 15px, white 15px);
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle at 0% 0%, transparent 8px, #DBDBDB 8px, #DBDBDB 9px, white 9px);
 }
 
 .sub-border::before {
   content: "";
   position: absolute;
-  right: -14px;
+  right: -8px;
   bottom: 0;
-  width: 14px;
-  height: 14px;
-  background: radial-gradient(circle at 100% 0%, transparent 14px, #DBDBDB 14px, #DBDBDB 15px, white 15px);
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle at 100% 0%, transparent 8px, #DBDBDB 8px, #DBDBDB 9px, white 9px);
 }
 
 #app {
