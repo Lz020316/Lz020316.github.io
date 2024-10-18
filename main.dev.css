@@ -104,7 +104,7 @@
   --tw-contain-layout: ;
   --tw-contain-paint: ;
   --tw-contain-style: ;
-} /*! tailwindcss v3.4.13 | MIT License | https://tailwindcss.com*/
+} /*! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com*/
 *, :after, :before {
   box-sizing: border-box;
   border: 0 solid #e5e7eb;
@@ -299,7 +299,7 @@ img, video {
   height: auto;
 }
 
-[hidden] {
+[hidden]:where(:not([hidden=until-found])) {
   display: none;
 }
 
@@ -944,6 +944,10 @@ img, video {
   margin-right: 12px;
 }
 
+.mr-\[16px\] {
+  margin-right: 16px;
+}
+
 .mr-\[22px\] {
   margin-right: 22px;
 }
@@ -1068,6 +1072,10 @@ img, video {
 
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .grid {
@@ -1423,6 +1431,10 @@ img, video {
   max-height: 300px;
 }
 
+.max-h-\[350px\] {
+  max-height: 350px;
+}
+
 .max-h-\[35vh\] {
   max-height: 35vh;
 }
@@ -1575,6 +1587,10 @@ img, video {
   width: 172px;
 }
 
+.w-\[176px\] {
+  width: 176px;
+}
+
 .w-\[180px\] {
   width: 180px;
 }
@@ -1681,6 +1697,10 @@ img, video {
 
 .w-\[35\%\] {
   width: 35%;
+}
+
+.w-\[35vw\] {
+  width: 35vw;
 }
 
 .w-\[36px\] {
@@ -1929,6 +1949,10 @@ img, video {
 
 .w-\[calc\(100\%-63px\)\] {
   width: calc(100% - 63px);
+}
+
+.w-\[calc\(100\%-64px\)\] {
+  width: calc(100% - 64px);
 }
 
 .w-\[calc\(100\%-72px\)\] {
@@ -2300,6 +2324,14 @@ img, video {
 
 .gap-\[60px\] {
   gap: 60px;
+}
+
+.gap-\[64px\] {
+  gap: 64px;
+}
+
+.gap-\[6px\] {
+  gap: 6px;
 }
 
 .gap-\[8px\] {
@@ -2693,6 +2725,11 @@ img, video {
   background-color: rgb(159 116 235/var(--tw-bg-opacity));
 }
 
+.bg-\[\#A074EB\] {
+  --tw-bg-opacity:1;
+  background-color: rgb(160 116 235/var(--tw-bg-opacity));
+}
+
 .bg-\[\#C6C6C6\] {
   --tw-bg-opacity:1;
   background-color: rgb(198 198 198/var(--tw-bg-opacity));
@@ -2794,6 +2831,10 @@ img, video {
 
 .bg-\[rgba\(156\,118\,226\,0\.4\)\] {
   background-color: rgba(156, 118, 226, 0.4);
+}
+
+.bg-\[rgba\(156\,118\,226\,0\.5\)\] {
+  background-color: rgba(156, 118, 226, 0.5);
 }
 
 .bg-\[rgba\(3\,3\,3\,0\.34\)\] {
@@ -3054,6 +3095,11 @@ img, video {
 .py-\[31px\] {
   padding-top: 31px;
   padding-bottom: 31px;
+}
+
+.py-\[3px\] {
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .py-\[4px\] {
@@ -3467,6 +3513,11 @@ img, video {
 .text-\[\#9f74eb\] {
   --tw-text-opacity:1;
   color: rgb(159 116 235/var(--tw-text-opacity));
+}
+
+.text-\[\#A074EB\] {
+  --tw-text-opacity:1;
+  color: rgb(160 116 235/var(--tw-text-opacity));
 }
 
 .text-\[\#A17EE3\] {
@@ -3912,6 +3963,28 @@ input[type=range]::-webkit-slider-thumb {
   height: 21px;
 }
 
+.newnote-subicon svg {
+  width: 40px;
+  height: 40px;
+}
+
+.note-subicon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.newnote-subicon-pink svg circle {
+  fill: #ED61C0;
+}
+
+.newnote-subicon-orange svg circle {
+  fill: #FF9F2F;
+}
+
+.newnote-subicon-purple svg circle {
+  fill: #9E6FF3;
+}
+
 .default-diagram svg {
   width: 101px;
   height: 102px;
@@ -4175,10 +4248,6 @@ select.custom-arrow {
   height: 24px;
 }
 
-.newnote-picture svg path {
-  fill: #999999;
-}
-
 .layout-add svg {
   width: 14px;
   height: 14px;
@@ -4401,6 +4470,11 @@ svg {
 
 .note-add svg path {
   fill: #B790FF;
+}
+
+.note_bottom svg {
+  width: 8px;
+  height: 4px;
 }
 
 .relay-tab-border::before {
