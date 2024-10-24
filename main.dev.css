@@ -3242,6 +3242,10 @@ img, video {
   text-align: center;
 }
 
+.font-\[\'Arial\'\] {
+  font-family: Arial;
+}
+
 .font-\[\'Inter\'\] {
   font-family: Inter;
 }
@@ -3966,6 +3970,11 @@ input[type=range]::-webkit-slider-thumb {
 .newnote-subicon svg {
   width: 40px;
   height: 40px;
+}
+
+.note-subicon-54 svg {
+  width: 54px;
+  height: 54px;
 }
 
 .note-subicon svg {
